@@ -1,8 +1,7 @@
 #include <AFMotor.h>
 
-// On my camera cable, yellow=tip, red=base, white=
 // Begin: user-changeable values
-int TAKE_PHOTO_PIN = 47;
+int TAKE_PHOTO_PIN = 47; // On my camera cable, yellow=tip, red=base, white=middle
 int MOTOR_PORT_1 = 1;
 int SLIDE_STOPPER_PIN_1 = 48;
 int SLIDE_STOPPER_PIN_2 = 49;
